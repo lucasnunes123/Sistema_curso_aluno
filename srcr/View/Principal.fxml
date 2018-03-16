@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="Controller.PrincipalController">
+   <children>
+      <Button fx:id="btnCadastrarCurso" layoutX="450.0" layoutY="327.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="136.0" text="Cadastrar Curso" />
+      <Button fx:id="btnListarCurso" layoutX="306.0" layoutY="327.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="136.0" text="Listar Curso" />
+      <Button fx:id="btnListarAluno" layoutX="156.0" layoutY="327.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="136.0" text="Listar Aluno" />
+      <Button fx:id="btnCadastrarAluno" layoutX="14.0" layoutY="327.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="136.0" text="Cadastrar Aluno" />
+   </children>
+</AnchorPane>
